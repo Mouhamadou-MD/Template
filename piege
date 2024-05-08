@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de phishing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Attention : Phishing !</h1>
+    <p>Vous êtes tombé dans le piège d'une tentative de phishing.</p>
+    <p>Ne fournissez jamais vos informations personnelles à des sites douteux.</p>
+</body>
+</html>
