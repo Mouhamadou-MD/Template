@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test de phishing</title>
+    <title>Conseils pour éviter le phishing</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,11 +14,39 @@
         h1 {
             color: red;
         }
+        .tip {
+            margin-top: 20px;
+            text-align: left;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .tip img {
+            float: left;
+            margin-right: 10px;
+            max-width: 100px;
+            max-height: 100px;
+        }
     </style>
 </head>
 <body>
     <h1>Attention : Phishing !</h1>
     <p>Vous êtes tombé dans le piège d'une tentative de phishing.</p>
     <p>Ne fournissez jamais vos informations personnelles à des sites douteux.</p>
+
+    <div class="tip">
+        <img src="../capture/mail.png" alt="Expéditeur">
+        <p><strong>Expéditeur :</strong> Vérifiez que l'adresse email de l'expéditeur est légitime. Méfiez-vous des emails provenant d'adresses inconnues ou suspectes.</p>
+    </div>
+
+    <div class="tip">
+        <img src="../capture/Lien.png" alt="Lien">
+        <p><strong>Lien :</strong> Ne cliquez pas sur des liens suspects envoyés par e-mail. Ils pourraient vous rediriger vers des sites de phishing. Passez la souris sur le lien pour afficher l'URL complète avant de cliquer.</p>
+    </div>
+    
+    <div class="tip">
+        <img src="../capture/domaine.png" alt="Barre d'adresse">
+        <p><strong>Barre d'adresse :</strong> Avant de saisir des informations personnelles sur un site, vérifiez toujours l'URL dans la barre d'adresse. Les sites légitimes ont souvent une connexion sécurisée avec un cadenas vert.</p>
+    </div>
 </body>
 </html>
