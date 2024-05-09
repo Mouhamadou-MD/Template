@@ -21,13 +21,18 @@
         .tip img {
             display: block;
             margin: 0 auto;
-            max-width: 100%; /* L'image prendra 100% de la largeur disponible */
+            max-width: 100%;
             height: auto;
             margin-bottom: 10px;
         }
         @media (min-width: 768px) {
             .tip img {
-                max-width: 300px; /* Taille maximale pour les écrans plus larges */
+                max-width: 500px; /* Taille maximale pour les écrans plus larges */
+            }
+        }
+        @media (min-width: 1200px) {
+            .tip img {
+                max-width: 700px; /* Taille maximale pour les écrans encore plus larges */
             }
         }
     </style>
