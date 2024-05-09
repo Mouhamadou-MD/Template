@@ -21,6 +21,8 @@
         .tip img {
             float: left;
             margin-right: 10px;
+            max-width: 200px; /* Définition de la largeur maximale des images */
+            height: auto; /* Pour conserver les proportions de l'image */
         }
     </style>
 </head>
