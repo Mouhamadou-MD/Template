@@ -19,10 +19,11 @@
             text-align: left;
         }
         .tip img {
-            float: left;
-            margin-right: 10px;
-            max-width: 200px; /* Définition de la largeur maximale des images */
+            display: block; /* Pour centrer l'image */
+            margin: 0 auto; /* Pour centrer l'image */
+            max-width: 600px; /* Taille maximale de l'image */
             height: auto; /* Pour conserver les proportions de l'image */
+            margin-bottom: 10px; /* Espacement entre l'image et le texte */
         }
     </style>
 </head>
@@ -32,18 +33,18 @@
     <p>Ne fournissez jamais vos informations personnelles à des sites douteux.</p>
 
     <div class="tip">
-        <img src="../capture/mail.png" alt="Expéditeur">
         <p><strong>Expéditeur :</strong> Vérifiez que l'adresse email de l'expéditeur semble légitime et correspond à une entreprise ou une organisation connue.</p>
+        <img src="../capture/mail.png" alt="Expéditeur">
     </div>
 
     <div class="tip">
-        <img src="../capture/Lien.png" alt="Lien">
         <p><strong>Lien :</strong> Ne cliquez pas sur des liens suspects envoyés par e-mail. Passez la souris sur le lien pour voir l'URL complète dans la barre d'état du navigateur.</p>
+        <img src="../capture/Lien.png" alt="Lien">
     </div>
     
     <div class="tip">
-        <img src="../capture/domaine.png" alt="Barre d'adresse">
         <p><strong>Barre d'adresse :</strong> Vérifiez que le domaine dans l'URL correspond à celui attendu. Par exemple, pour un site officiel de votre banque, l'URL doit commencer par "https://www.nomdebanque.fr".</p>
+        <img src="../capture/domaine.png" alt="Barre d'adresse">
     </div>
 </body>
 </html>
