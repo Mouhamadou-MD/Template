@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>V&eacute;rifiez votre compte Microsoft</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; color: #333; margin: 0; padding: 0;">
+<div class="container" style="max-width: 600px; margin: 20px auto; background-color: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+<div style="padding: 20px 40px; text-align: left;"><img alt="Microsoft Logo" src="https://aadcdn.msauth.net/shared/1.0/content/images/microsoft_logo_ea19b2112f4dfd8e90b4505ef7dcb4f9.png" style="max-width: 200px; filter: invert(0); width: 108px; height: 24px;" /></div>
+
+<h2>V&eacute;rifiez votre compte</h2>
+
+<p>Nous avons d&eacute;tect&eacute; des activit&eacute;s inhabituelles lors d&rsquo;une connexion r&eacute;cente du compte Microsoft mouhamadou.diallo.sio@gmail.com. Par exemple, il est possible que vous vous connectiez depuis un nouvel emplacement, un nouvel appareil ou une nouvelle application.</p>
+
+<p>Pour votre s&eacute;curit&eacute;, nous avons bloqu&eacute; l&rsquo;acc&egrave;s &agrave; votre bo&icirc;te de r&eacute;ception, votre liste de contacts et votre calendrier pour ce nom de connexion. V&eacute;rifiez votre activit&eacute; r&eacute;cente et nous vous aiderons &agrave; s&eacute;curiser votre compte. Pour r&eacute;cup&eacute;rer l&rsquo;acc&egrave;s, vous devrez confirmer que vous &ecirc;tes l&rsquo;auteur de l&rsquo;activit&eacute; r&eacute;cente.</p>
+<a class="button" href="{{.URL}}" style="display: inline-block; background-color: #0067b8; color: #fff; border: 2px solid #0067b8; padding: 4px 12px; font-size: 15px; cursor: pointer; text-decoration: none; margin: 0 auto;">Passer en revue les activit&eacute;s r&eacute;centes</a>
+
+<p>Merci,<br />
+L&rsquo;&eacute;quipe des comptes Microsoft</p>
+</div>
+
+<p>{{.Tracker}}</p>
+</body>
+</html>
