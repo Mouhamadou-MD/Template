@@ -54,7 +54,7 @@
     
     <div class="tip">
         <p><strong>Barre d'adresse :</strong> Vérifiez que le domaine dans l'URL correspond à celui attendu. Par exemple, pour un site officiel de votre banque, l'URL doit commencer par "https://www.nomdebanque.fr".</p>
-        <img src="../capture/domaine.png" alt="Barre d'adresse">
+    
     </div>
 </body>
 </html>
