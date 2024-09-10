@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attention : Tentative de phishing détectée</title>
+    <title>Attention : Vous êtes tombé dans le piège ! </title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -50,8 +50,8 @@
     </style>
 </head>
 <body>
-    <h1>Attention : Tentative de phishing détectée !</h1>
-    <p>Vous avez peut-être été victime d'une tentative de phishing. Voici quelques conseils pour vous protéger et éviter de tomber dans ce piège à l'avenir :</p>
+    <h1>Attention : Vous êtes tombé dans le piège !</h1>
+    <p>Vous avez été victime d'une campagne de phishing, voici quelques conseils pour vous protéger et éviter de tomber dans ce piège à l'avenir :</p>
 
     <div class="tip">
         <p><strong>1. Vérifiez l’expéditeur :</strong> Assurez-vous que l'adresse e-mail de l'expéditeur est légitime. Les tentatives de phishing utilisent souvent des adresses similaires à celles d'entreprises connues. Prenez le temps d'examiner attentivement l'adresse pour identifier d'éventuelles anomalies.</p>
@@ -59,25 +59,20 @@
     </div>
 
     <div class="tip">
-        <p><strong>2. Ne cliquez pas sur les liens suspects :</strong> Si un e-mail contient des liens, ne les cliquez jamais avant de vérifier où ils mènent. Pour cela, passez la souris sur le lien (sans cliquer) pour afficher l'URL dans la barre d'état de votre navigateur. Assurez-vous que l'URL semble légitime et correspond à l'adresse habituelle de l'organisation.</p>
+        <p><strong>2. Ne cliquez pas sur les liens suspects :</strong> Si un e-mail contient des liens, ne cliquez jamais avant de vérifier où ils mènent. Pour cela, passez la souris sur le lien (sans cliquer) pour afficher l'URL dans la barre d'état de votre navigateur. Assurez-vous que l'URL semble légitime et correspond à l'adresse habituelle de l'organisation.</p>
         <img src="../capture/Lien.png" alt="Vérifiez le lien">
     </div>
     
     <div class="tip">
         <p><strong>3. Analysez l'URL dans la barre d'adresse :</strong> Lorsque vous visitez un site à partir d'un lien dans un e-mail, vérifiez l'URL dans la barre d'adresse du navigateur. Elle doit commencer par "https://" et le domaine doit correspondre à celui de l'entreprise que vous pensez contacter (par exemple, "https://www.votreboutique.com" pour une boutique en ligne).</p>
-        <p><em>Astuce :</em> En cas de doute, ne poursuivez pas la navigation sur le site et informez immédiatement votre responsable informatique ou le service sécurité de votre organisation.</p>
     </div>
 
     <div class="tip">
-        <p><strong>4. Méfiez-vous des pièces jointes :</strong> Les e-mails de phishing peuvent contenir des pièces jointes malveillantes. Ne téléchargez jamais une pièce jointe provenant d'un expéditeur inconnu ou inattendu, même si cela semble légitime. Si vous avez un doute, contactez directement l'expéditeur (via un autre moyen) pour vérifier.</p>
+        <p><strong>4. Méfiez-vous des pièces jointes :</strong> Les e-mails de phishing peuvent contenir des pièces jointes malveillantes. Ne téléchargez jamais une pièce jointe provenant d'un expéditeur inconnu ou inattendu, même si cela semble légitime.</p>
     </div>
 
     <div class="tip">
         <p><strong>5. Signalez les tentatives de phishing :</strong> Si vous recevez un e-mail suspect, signalez-le immédiatement à votre équipe de sécurité informatique ou à votre prestataire de services pour qu'ils prennent des mesures appropriées. Il est important d'agir rapidement pour éviter d'autres incidents potentiels.</p>
-    </div>
-
-    <div class="tip">
-        <p><strong>6. Changez régulièrement vos mots de passe :</strong> En cas de doute, si vous pensez avoir partagé des informations sensibles par inadvertance, changez immédiatement votre mot de passe. Utilisez des mots de passe robustes et uniques pour chaque service et activez l'authentification à deux facteurs (2FA) pour une sécurité supplémentaire.</p>
     </div>
 </body>
 </html>
