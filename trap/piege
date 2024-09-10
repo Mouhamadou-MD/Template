@@ -9,49 +9,114 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             text-align: center;
-            padding: 50px;
+            padding: 20px;
         }
         h1 {
-            color: red;
-            font-size: 28px;
+            color: #b30000;
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 20px;
+            text-transform: uppercase;
         }
         p {
             font-size: 18px;
             color: #333;
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .danger-sign {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Warning_sign_font_awesome.svg/512px-Warning_sign_font_awesome.svg.png') no-repeat center center;
+            background-size: contain;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .warning-text {
+            font-size: 20px;
+            color: #cc0000;
+            font-weight: bold;
+            margin-bottom: 15px;
         }
         img {
             display: block;
-            margin: 0 auto;
+            margin: 20px auto;
             max-width: 100%;
             height: auto;
-            margin-bottom: 10px;
+        }
+        .tip {
+            margin-bottom: 30px;
+            position: relative;
         }
         @media (min-width: 768px) {
             img {
-                max-width: 500px; /* Taille maximale pour les écrans plus larges */
+                max-width: 500px;
             }
         }
         @media (min-width: 1200px) {
             img {
-                max-width: 700px; /* Taille maximale pour les écrans encore plus larges */
+                max-width: 700px;
             }
+        }
+        .line {
+            width: 100%;
+            height: 2px;
+            background-color: #ccc;
+            margin: 20px 0;
         }
     </style>
 </head>
 <body>
-    <h1>Attention : Vous êtes tombé dans le piège !</h1>
-    <p>Vous avez été victime d'une campagne de phishing, voici quelques conseils pour vous protéger et éviter de tomber dans ce piège à l'avenir :</p>
 
-    <p><strong>1. Vérifiez l’expéditeur :</strong> Assurez-vous que l'adresse e-mail de l'expéditeur est légitime. Les tentatives de phishing utilisent souvent des adresses similaires à celles d'entreprises connues. Prenez le temps d'examiner attentivement l'adresse pour identifier d'éventuelles anomalies.</p>
-    <img src="../capture/mail.png" alt="Vérifiez l'expéditeur">
+    <h1><span class="danger-sign"></span> Attention : Vous êtes tombé dans le piège !</h1>
 
-    <p><strong>2. Ne cliquez pas sur les liens suspects :</strong> Si un e-mail contient des liens, ne cliquez jamais avant de vérifier où ils mènent. Pour cela, passez la souris sur le lien (sans cliquer) pour afficher l'URL dans la barre d'état de votre navigateur. Assurez-vous que l'URL semble légitime et correspond à l'adresse habituelle de l'organisation.</p>
-    <img src="../capture/Lien.png" alt="Vérifiez le lien">
+    <div class="container">
 
-    <p><strong>3. Analysez l'URL dans la barre d'adresse :</strong> Lorsque vous visitez un site à partir d'un lien dans un e-mail, vérifiez l'URL dans la barre d'adresse du navigateur. Elle doit commencer par "https://" et le domaine doit correspondre à celui de l'entreprise que vous pensez contacter (par exemple, "https://www.votreboutique.com" pour une boutique en ligne).</p>
+        <div class="tip">
+            <p class="warning-text"><span class="danger-sign"></span> Vérifiez l’expéditeur :</p>
+            <p>Assurez-vous que l'adresse e-mail de l'expéditeur est légitime. Les tentatives de phishing utilisent souvent des adresses similaires à celles d'entreprises connues. Prenez le temps d'examiner attentivement l'adresse pour identifier d'éventuelles anomalies.</p>
+            <img src="../capture/mail.png" alt="Vérifiez l'expéditeur">
+        </div>
 
-    <p><strong>4. Méfiez-vous des pièces jointes :</strong> Les e-mails de phishing peuvent contenir des pièces jointes malveillantes. Ne téléchargez jamais une pièce jointe provenant d'un expéditeur inconnu ou inattendu, même si cela semble légitime.</p>
+        <div class="line"></div>
 
-    <p><strong>5. Signalez les tentatives de phishing :</strong> Si vous recevez un e-mail suspect, signalez-le immédiatement à votre équipe de sécurité informatique ou à votre prestataire de services pour qu'ils prennent des mesures appropriées. Il est important d'agir rapidement pour éviter d'autres incidents potentiels.</p>
+        <div class="tip">
+            <p class="warning-text"><span class="danger-sign"></span> Ne cliquez pas sur les liens suspects :</p>
+            <p>Si un e-mail contient des liens, ne cliquez jamais avant de vérifier où ils mènent. Pour cela, passez la souris sur le lien (sans cliquer) pour afficher l'URL dans la barre d'état de votre navigateur. Assurez-vous que l'URL semble légitime et correspond à l'adresse habituelle de l'organisation.</p>
+            <img src="../capture/Lien.png" alt="Vérifiez le lien">
+        </div>
+
+        <div class="line"></div>
+
+        <div class="tip">
+            <p class="warning-text"><span class="danger-sign"></span> Analysez l'URL dans la barre d'adresse :</p>
+            <p>Lorsque vous visitez un site à partir d'un lien dans un e-mail, vérifiez l'URL dans la barre d'adresse du navigateur. Elle doit commencer par "https://" et le domaine doit correspondre à celui de l'entreprise que vous pensez contacter (par exemple, "https://www.votreboutique.com" pour une boutique en ligne).</p>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="tip">
+            <p class="warning-text"><span class="danger-sign"></span> Méfiez-vous des pièces jointes :</p>
+            <p>Les e-mails de phishing peuvent contenir des pièces jointes malveillantes. Ne téléchargez jamais une pièce jointe provenant d'un expéditeur inconnu ou inattendu, même si cela semble légitime.</p>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="tip">
+            <p class="warning-text"><span class="danger-sign"></span> Signalez les tentatives de phishing :</p>
+            <p>Si vous recevez un e-mail suspect, signalez-le immédiatement à votre équipe de sécurité informatique ou à votre prestataire de services pour qu'ils prennent des mesures appropriées. Il est important d'agir rapidement pour éviter d'autres incidents potentiels.</p>
+        </div>
+
+    </div>
+
 </body>
 </html>
