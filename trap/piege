@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attention : Vous êtes tombé dans le piège ! </title>
+    <title>Attention : Vous êtes tombé dans le piège !</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,18 +19,7 @@
             font-size: 18px;
             color: #333;
         }
-        .tip {
-            margin-top: 20px;
-            text-align: left;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-        }
-        .tip img {
+        img {
             display: block;
             margin: 0 auto;
             max-width: 100%;
@@ -38,12 +27,12 @@
             margin-bottom: 10px;
         }
         @media (min-width: 768px) {
-            .tip img {
+            img {
                 max-width: 500px; /* Taille maximale pour les écrans plus larges */
             }
         }
         @media (min-width: 1200px) {
-            .tip img {
+            img {
                 max-width: 700px; /* Taille maximale pour les écrans encore plus larges */
             }
         }
@@ -53,26 +42,16 @@
     <h1>Attention : Vous êtes tombé dans le piège !</h1>
     <p>Vous avez été victime d'une campagne de phishing, voici quelques conseils pour vous protéger et éviter de tomber dans ce piège à l'avenir :</p>
 
-    <div class="tip">
-        <p><strong>1. Vérifiez l’expéditeur :</strong> Assurez-vous que l'adresse e-mail de l'expéditeur est légitime. Les tentatives de phishing utilisent souvent des adresses similaires à celles d'entreprises connues. Prenez le temps d'examiner attentivement l'adresse pour identifier d'éventuelles anomalies.</p>
-        <img src="../capture/mail.png" alt="Vérifiez l'expéditeur">
-    </div>
+    <p><strong>1. Vérifiez l’expéditeur :</strong> Assurez-vous que l'adresse e-mail de l'expéditeur est légitime. Les tentatives de phishing utilisent souvent des adresses similaires à celles d'entreprises connues. Prenez le temps d'examiner attentivement l'adresse pour identifier d'éventuelles anomalies.</p>
+    <img src="../capture/mail.png" alt="Vérifiez l'expéditeur">
 
-    <div class="tip">
-        <p><strong>2. Ne cliquez pas sur les liens suspects :</strong> Si un e-mail contient des liens, ne cliquez jamais avant de vérifier où ils mènent. Pour cela, passez la souris sur le lien (sans cliquer) pour afficher l'URL dans la barre d'état de votre navigateur. Assurez-vous que l'URL semble légitime et correspond à l'adresse habituelle de l'organisation.</p>
-        <img src="../capture/Lien.png" alt="Vérifiez le lien">
-    </div>
-    
-    <div class="tip">
-        <p><strong>3. Analysez l'URL dans la barre d'adresse :</strong> Lorsque vous visitez un site à partir d'un lien dans un e-mail, vérifiez l'URL dans la barre d'adresse du navigateur. Elle doit commencer par "https://" et le domaine doit correspondre à celui de l'entreprise que vous pensez contacter (par exemple, "https://www.votreboutique.com" pour une boutique en ligne).</p>
-    </div>
+    <p><strong>2. Ne cliquez pas sur les liens suspects :</strong> Si un e-mail contient des liens, ne cliquez jamais avant de vérifier où ils mènent. Pour cela, passez la souris sur le lien (sans cliquer) pour afficher l'URL dans la barre d'état de votre navigateur. Assurez-vous que l'URL semble légitime et correspond à l'adresse habituelle de l'organisation.</p>
+    <img src="../capture/Lien.png" alt="Vérifiez le lien">
 
-    <div class="tip">
-        <p><strong>4. Méfiez-vous des pièces jointes :</strong> Les e-mails de phishing peuvent contenir des pièces jointes malveillantes. Ne téléchargez jamais une pièce jointe provenant d'un expéditeur inconnu ou inattendu, même si cela semble légitime.</p>
-    </div>
+    <p><strong>3. Analysez l'URL dans la barre d'adresse :</strong> Lorsque vous visitez un site à partir d'un lien dans un e-mail, vérifiez l'URL dans la barre d'adresse du navigateur. Elle doit commencer par "https://" et le domaine doit correspondre à celui de l'entreprise que vous pensez contacter (par exemple, "https://www.votreboutique.com" pour une boutique en ligne).</p>
 
-    <div class="tip">
-        <p><strong>5. Signalez les tentatives de phishing :</strong> Si vous recevez un e-mail suspect, signalez-le immédiatement à votre équipe de sécurité informatique ou à votre prestataire de services pour qu'ils prennent des mesures appropriées. Il est important d'agir rapidement pour éviter d'autres incidents potentiels.</p>
-    </div>
+    <p><strong>4. Méfiez-vous des pièces jointes :</strong> Les e-mails de phishing peuvent contenir des pièces jointes malveillantes. Ne téléchargez jamais une pièce jointe provenant d'un expéditeur inconnu ou inattendu, même si cela semble légitime.</p>
+
+    <p><strong>5. Signalez les tentatives de phishing :</strong> Si vous recevez un e-mail suspect, signalez-le immédiatement à votre équipe de sécurité informatique ou à votre prestataire de services pour qu'ils prennent des mesures appropriées. Il est important d'agir rapidement pour éviter d'autres incidents potentiels.</p>
 </body>
 </html>
