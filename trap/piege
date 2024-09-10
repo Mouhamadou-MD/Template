@@ -115,11 +115,12 @@
             <p class="warning-text"><span class="danger-sign"></span> Signalez les tentatives de phishing :</p>
             <p>Si vous recevez un e-mail suspect, signalez-le immédiatement à votre équipe de sécurité informatique ou à votre prestataire de services pour qu'ils prennent des mesures appropriées. Il est important d'agir rapidement pour éviter d'autres incidents potentiels.</p>
         </div>
- <div class="tip">
+<div class="tip">
     <p class="warning-text"><span class="danger-sign"></span> Pour rappel :</p>
     <p>En 2023, l'hameçonnage (phishing) était le 2ème plus grand vecteur d'attaque derrière le piratage de compte, selon Cybermalveillance.gouv.fr.</p>
-    <img src="../capture/cybergouv.png" alt="image de Cybermalveillance.gouv.fr">
+    <img src="../capture/cybergouv.png" alt="image de Cybermalveillance.gouv.fr" width="316" height="266">
 </div>
+
 
         <div class="line"></div>
 
